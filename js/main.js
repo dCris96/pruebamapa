@@ -33,7 +33,7 @@ let sitios = [
         nombre: "Aguas termales de Cochaconchucos",
         corX: -8.251073,
         corY: -77.881222,
-        descripcion: "",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nemo dolorum commodi labore provident, omnis, sunt a minima asperiores dolores possimus tenetur odio explicabo aspernatur iure, ab rem cum nesciunt?",
         imageUrl: "./huambavalle.jpg"
     }
 ]
@@ -43,7 +43,7 @@ for(let i = 0; i <= sitios.length; i++){
     let sitio = L.marker([sitios[i].corX, sitios[i].corY],{
     // icon: lago
     }).addTo(map).bindPopup(`<h1>${sitios[i].nombre}</h1><p>${sitios[i].descripcion}</p><img src="${sitios[i].imageUrl}" style="width:100%">`,{
-        className: "putito"
+        maxHeight: 200
     })
 
 }
