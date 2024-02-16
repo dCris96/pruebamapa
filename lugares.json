@@ -1,0 +1,20 @@
+{
+    "sitios": [
+        {
+            "titulo": "Laguna de Pelagatos",
+            "titulo_corto": "Pelagatos",
+            "corX": -8.178685,
+            "corY": -77.794262,
+            "descripcion": "",
+            "imageUrl": "./pelagatos.jpg"
+        },
+        {
+            "titulo": "Aguas termales de Cochaconchucos",
+            "titulo_corto": "Cochaconchucos",
+            "corX": -8.251073,
+            "corY": -77.881222,
+            "descripcion": "",
+            "imageUrl": "./pelagatos.jpg"
+        }
+    ]
+}
