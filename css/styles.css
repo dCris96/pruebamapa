@@ -12,12 +12,11 @@ main {
 
 .buscador {
   position: absolute;
-  width: 100%;
+  min-width: 350px;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
-  padding: 20px 0;
-  z-index: 100;
-}
-.buscador .box__blur {
   display: inline-block;
   padding: 20px 40px;
   border-radius: 15px;
@@ -25,11 +24,12 @@ main {
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   border: 1px solid #bbbbbb;
+  z-index: 2;
 }
 .buscador .titulo {
   font-family: "Protest Revolution", sans-serif;
   color: #fff;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 .buscador .entidad {
   font-family: "Open Sans", sans-serif;
@@ -37,6 +37,16 @@ main {
   color: #fff;
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 10px;
+}
+.buscador .select {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  color: #312929;
+  background-color: #ededed;
+  outline: none;
 }
 
 #map {
