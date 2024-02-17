@@ -6,7 +6,7 @@ let map = L.map('map',{
 
 //Estilo de graficos del mapa y atribución de creador
 let mapView = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+	// attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 }).addTo(map);
 
 //CREACION DE LOS ICONOS
@@ -20,30 +20,18 @@ let mapView = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/
 //     shadowAnchor: [22, 94]
 // });
 
+// TRAER SITIOS DESDE ARCHIVO JSON
+fetch('lugares.json')
+    .then((response) => response.json())
+    .then((data) => {
+        for(let i = 0; i <= data.length; i++){
 
-let sitios = [
-    {
-        nombre: "Pelagatos",
-        corX: -8.178685,
-        corY: -77.794262,
-        descripcion: "",
-        imageUrl: "./pelagatos.jpg"
-    },
-    {
-        nombre: "Aguas termales de Cochaconchucos",
-        corX: -8.251073,
-        corY: -77.881222,
-        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nemo dolorum commodi labore provident, omnis, sunt a minima asperiores dolores possimus tenetur odio explicabo aspernatur iure, ab rem cum nesciunt?",
-        imageUrl: "./huambavalle.jpg"
-    }
-]
+            let sitio = L.marker([data[i].corX,data[i].corY])
 
-for(let i = 0; i <= sitios.length; i++){
+            sitio.addTo(map).bindPopup(`<h1>${data[i].titulo}</h1><p>${data[i].descripcion}</p><div class="img__popup"><img src="${data[i].imageUrl}"></div>`,{
+                maxHeight: 300
+            })
+        
+        }
+    });
 
-    let sitio = L.marker([sitios[i].corX, sitios[i].corY],{
-    // icon: lago
-    }).addTo(map).bindPopup(`<h1>${sitios[i].nombre}</h1><p>${sitios[i].descripcion}</p><img src="${sitios[i].imageUrl}" style="width:100%">`,{
-        maxHeight: 200
-    })
-
-}

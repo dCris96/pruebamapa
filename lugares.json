@@ -1,20 +1,75 @@
-{
-    "sitios": [
-        {
-            "titulo": "Laguna de Pelagatos",
-            "titulo_corto": "Pelagatos",
-            "corX": -8.178685,
-            "corY": -77.794262,
-            "descripcion": "",
-            "imageUrl": "./pelagatos.jpg"
-        },
-        {
-            "titulo": "Aguas termales de Cochaconchucos",
-            "titulo_corto": "Cochaconchucos",
-            "corX": -8.251073,
-            "corY": -77.881222,
-            "descripcion": "",
-            "imageUrl": "./pelagatos.jpg"
-        }
-    ]
-}
+ [
+    {
+        "titulo": "Laguna de Pelagatos",
+        "titulo_corto": "Pelagatos",
+        "corX": -8.178685,
+        "corY": -77.794262,
+        "descripcion": "La laguna mas grande de la región ancash, sus aguas cristalinas albergan la trucha.",
+        "imageUrl": "./foto.jpeg"
+    },
+    {
+        "titulo": "Aguas termales de Cochaconchucos",
+        "titulo_corto": "Cochaconchucos",
+        "corX": -8.251073,
+        "corY": -77.881222,
+        "descripcion": "",
+        "imageUrl": "./pelagatos.jpg"
+    },
+    {
+        "titulo": "Catarata de Huambavalle",
+        "titulo_corto": "Huambavalle",
+        "corX": -8.190634,
+        "corY": -77.870780,
+        "descripcion": "",
+        "imageUrl": "https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg"
+    },
+    {
+        "titulo": "Capilla de San Agustin - Pueblo Viejo",
+        "titulo_corto": "Pueblo viejo",
+        "corX": -8.206721060005304,
+        "corY": -77.90021298122402,
+        "descripcion": "",
+        "imageUrl": "https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg"
+    },
+    {
+        "titulo": "Tres Lagunas",
+        "titulo_corto": "Tres lagunas",
+        "corX": -8.201958,
+        "corY": -77.857609,
+        "descripcion": "",
+        "imageUrl": "https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg"
+    },
+    {
+        "titulo": "Ruinas de Huachaper",
+        "titulo_corto": "Huachaper",
+        "corX": -8.213954,
+        "corY": -77.894491,
+        "descripcion": "",
+        "imageUrl": "https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg"
+    },
+    {
+        "titulo": "Ruinas de Alto Llama",
+        "titulo_corto": "Alto Llama",
+        "corX": -8.214728,
+        "corY": -77.902583,
+        "descripcion": "",
+        "imageUrl": "https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg"
+    },
+    {
+        "titulo": "Pampa de Chagabara",
+        "titulo_corto": "Chagabara",
+        "corX": -8.206593,
+        "corY": -77.876009,
+        "descripcion": "",
+        "imageUrl": "https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg"
+    },
+    {
+        "titulo": "Catarata el Chugan",
+        "titulo_corto": "El Chugan",
+        "corX": -8.174044,
+        "corY": -77.856453,
+        "descripcion": "",
+        "imageUrl": "https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg"
+    }
+]
+

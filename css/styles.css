@@ -7,4 +7,16 @@
 #map {
   max-width: 100vw;
   height: 100vh;
+}
+
+.leaflet_popup {
+  text-align: center;
+}
+
+.img__popup {
+  display: flex;
+  flex-direction: column;
+}
+.img__popup img {
+  flex: 1;
 }/*# sourceMappingURL=styles.css.map */
