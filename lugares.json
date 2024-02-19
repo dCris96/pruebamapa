@@ -4,8 +4,32 @@
         "titulo_corto": "Pelagatos",
         "corX": -8.178685,
         "corY": -77.794262,
-        "descripcion": "La laguna mas grande de la región ancash, sus aguas cristalinas albergan la trucha.",
-        "imageUrl": "https://bolognesinoticias.com/wp-content/uploads/2023/06/Laguna-Pelagatos.webp"
+        "descripcion": "",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/mapa-turistico-pampas.appspot.com/o/pelagatos.jpg?alt=media&token=d5a25ac9-3890-4039-8c34-4ce42be6f705"
+    },
+    {
+        "titulo": "Laguna Blanca",
+        "titulo_corto": "Laguna Blanca",
+        "corX": -8.188602,
+        "corY": -77.774936,
+        "descripcion": "",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/mapa-turistico-pampas.appspot.com/o/laguna-blanca.jpg?alt=media&token=096ee5a1-c0b9-4831-bc29-05ae50ad61fb"
+    },
+    {
+        "titulo": "Laguna Negra",
+        "titulo_corto": "Laguna Negra",
+        "corX": -8.183706,
+        "corY": -77.765430,
+        "descripcion": "",
+        "imageUrl": ""
+    },
+    {
+        "titulo": "Laguna Quepina",
+        "titulo_corto": "Laguna Quepina",
+        "corX": -8.184778,
+        "corY": -77.780839,
+        "descripcion": "",
+        "imageUrl": ""
     },
     {
         "titulo": "Aguas termales de Cochaconchucos",
@@ -13,7 +37,7 @@
         "corX": -8.251073,
         "corY": -77.881222,
         "descripcion": "",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXO_DGBPNUeUEhrSwFvmWNBRgtXzSCTJDQZXGVzbEdo38mPQ4rEXP2Twts6CsLmoYZK40&usqp=CAU"
+        "imageUrl": ""
     },
     {
         "titulo": "Catarata de Huambavalle",
@@ -21,7 +45,7 @@
         "corX": -8.190634,
         "corY": -77.870780,
         "descripcion": "",
-        "imageUrl": "https://caretas.pe/wp-content/uploads/2023/12/R6-10b-1024x768.jpg"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/mapa-turistico-pampas.appspot.com/o/huambavalle.jpg?alt=media&token=3a0c479d-1764-405c-bf0e-06e1014ed247"
     },
     {
         "titulo": "Capilla de San Agustin - Pueblo Viejo",
@@ -29,7 +53,7 @@
         "corX": -8.206721060005304,
         "corY": -77.90021298122402,
         "descripcion": "",
-        "imageUrl": "https://scontent.ftru6-2.fna.fbcdn.net/v/t1.6435-9/40104459_2206144196287639_8481386595038003200_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeFb9h_-GkPZHaJUWMqneuEO_ox-SBuHYa7-jH5IG4dhrg1NgfK4UYobKCw-Phj78lHOr-mSofLJaMDMcx9wLRGT&_nc_ohc=F9v9-5ssmrkAX8RZ2Mo&_nc_ht=scontent.ftru6-2.fna&oh=00_AfB6q5gpGyds0reJe0-wK26bjxxF9mcHxJY8zq679Ztmfg&oe=65F8A5C2"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/mapa-turistico-pampas.appspot.com/o/pueblo-viejo.jpg?alt=media&token=d5fdeb03-ff42-4f81-94bd-d79eb27164ff"
     },
     {
         "titulo": "Tres Lagunas",
@@ -37,7 +61,7 @@
         "corX": -8.201958,
         "corY": -77.857609,
         "descripcion": "",
-        "imageUrl": "https://1.bp.blogspot.com/-BPFIKrpUhp0/WBDzOqN72-I/AAAAAAAABCI/ElJLXpvOxLYuWwSC2WAb_8bveyfqrLPsQCPcB/s1600/fotos%252Baristian%252B027.png"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/mapa-turistico-pampas.appspot.com/o/tres-lagunas.jpg?alt=media&token=0612984e-5779-4734-80e5-e54a2813052d"
     },
     {
         "titulo": "Ruinas de Huachaper",
@@ -45,7 +69,7 @@
         "corX": -8.213954,
         "corY": -77.894491,
         "descripcion": "",
-        "imageUrl": "https://scontent.ftru6-2.fna.fbcdn.net/v/t1.6435-9/55949747_2095034313895157_5480337690844987392_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7f8c78&_nc_eui2=AeH_ZwUMMKtL7l1QgxzUdzixhpUW3r2b0HuGlRbevZvQe9IDTm-vw1PEg7AQhOKliBOSttBZuDez-H33dWIukZa0&_nc_ohc=Xom5IDmGnP8AX-gXAUV&_nc_ht=scontent.ftru6-2.fna&oh=00_AfA47TKVTPvMPJYC4DaJtjVN6V1xnCGVeFZEIfmqYJSxIQ&oe=65F87AEE"
+        "imageUrl": ""
     },
     {
         "titulo": "Ruinas de Alto Llama",
@@ -53,7 +77,7 @@
         "corX": -8.214728,
         "corY": -77.902583,
         "descripcion": "",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRwFj5cAQArfAWfeQMjI3AYhDmus4rLV_xeeR-5EPdGvbimYi7AVHQWrN7KLdvaw8EXQ&usqp=CAU"
+        "imageUrl": ""
     },
     {
         "titulo": "Pampa de Chagabara",
@@ -61,13 +85,37 @@
         "corX": -8.206593,
         "corY": -77.876009,
         "descripcion": "",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9H09-ZR4mOQp9FKewOioI32Axw-zzrfhV3hu50ineqsbMg94R5OeSfRzoF_gCDbfF55g&usqp=CAU"
+        "imageUrl": ""
     },
     {
         "titulo": "Catarata el Chugan",
         "titulo_corto": "El Chugan",
         "corX": -8.174044,
         "corY": -77.856453,
+        "descripcion": "",
+        "imageUrl": ""
+    },
+    {
+        "titulo": "Catarata San Antonio",
+        "titulo_corto": "San Antonio",
+        "corX": -8.179039,
+        "corY": -77.839258,
+        "descripcion": "",
+        "imageUrl": ""
+    },
+    {
+        "titulo": "Laguna Misha",
+        "titulo_corto": "Laguna Misha",
+        "corX": -8.146851,
+        "corY": -77.782430,
+        "descripcion": "",
+        "imageUrl": ""
+    },
+    {
+        "titulo": "Laguna Jarrococha",
+        "titulo_corto": "Laguna Jarrococha",
+        "corX": -8.141359,
+        "corY": -77.780039,
         "descripcion": "",
         "imageUrl": ""
     }
