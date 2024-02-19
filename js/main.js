@@ -9,17 +9,6 @@ let mapView = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/
 	// attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 }).addTo(map);
 
-//CREACION DE LOS ICONOS
-// let lago = L.icon({
-//     iconUrl: 'img/icons/lago.png',
-//     iconSize: [60, 95],
-//     iconAnchor: [22, 94],
-//     popupAnchor: [-3, -76],
-//     shadowUrl: 'img/icons/lago.png',
-//     shadowSize: [60, 95],
-//     shadowAnchor: [22, 94]
-// });
-
 // TRAER SITIOS DESDE ARCHIVO JSON
 fetch('lugares.json')
     .then((response) => response.json())
@@ -28,9 +17,7 @@ fetch('lugares.json')
 
             let sitio = L.marker([data[i].corX,data[i].corY])
 
-            sitio.addTo(map).bindPopup(`<div class="popup"><h1>${data[i].titulo}</h1><p>${data[i].descripcion}</p><div class="img__popup"><img src="${data[i].imageUrl}"></div></div>`,{
-                //maxHeight: 300
-            })
+            sitio.addTo(map).bindPopup(`<div class="popup"><h1>${data[i].titulo}</h1><p>${data[i].descripcion}</p><div class="img__popup"><img src="${data[i].imageUrl}"></div></div>`)
         
         }
     });
